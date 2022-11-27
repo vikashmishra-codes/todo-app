@@ -1,0 +1,48 @@
+.note{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: white;
+    border: 1px solid black;
+
+    min-width: 32%;
+    min-height: 1rem;
+    margin-bottom: .5rem;
+    .noteText {
+      font-size: 1rem;
+      color:#000000;
+      padding:.4rem .2rem;
+    }
+    .textlined{
+      text-decoration: line-through;
+      opacity:0.5;
+    }
+    .delete {
+      background: #e60808;
+      color: white;
+      font-size: 1rem;
+      border:none;
+      padding:.5rem .6rem;
+      outline: none;
+    }
+    .check-btn{
+      background: #5a0f97;;
+      color: white;
+      font-size: 1rem;
+      border:none;
+      padding:.5rem .6rem;
+      outline: none;
+    }
+    
+    
+    .delete:hover{
+      color: #e60808;
+      background: white;
+    } 
+}
+.fall{
+  transform: translateY(10rem) rotateZ(20deg) ;
+  opacity: 0;
+}

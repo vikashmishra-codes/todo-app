@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg,rgb(220, 125, 125),rgb(12, 131, 222));
+    color:#fff;
+    min-height:100vh
+}
+h1,h2,h3{
+    color: rgba(36, 35, 35, 0.839);
+}
+
+.App{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    .text{
+        margin-top: .5rem;
+        text-align:  center;
+    }
+    
+}
+
+
+@import './nav';
+@import './contact';
+@import './noteList';
+@import './note';
+@import './createNote';
